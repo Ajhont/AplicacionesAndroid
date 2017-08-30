@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etNum1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:ems="10"
+        android:hint="Ingrese un numero"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etNum2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etNum1"
+        android:layout_alignRight="@+id/etNum1"
+        android:layout_below="@+id/etNum1"
+        android:layout_marginTop="39dp"
+        android:ems="10"
+        android:hint="Ingrese un numero"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etNum2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="Obtener Resultado"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnResultado"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:text="Resultado"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</RelativeLayout>
